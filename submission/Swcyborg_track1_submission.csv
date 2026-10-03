@@ -1,0 +1,6 @@
+proband_id,chrom_1,pos_1,ref_1,alt_1,chrom_2,pos_2,ref_2,alt_2,epcr,finding_type,notes
+PROBAND01,chr15,40209701,T,G,chr15,40220612,T,G,0.92,primary,"BUB1B compound heterozygous: p.Leu737Ter (stop_gained, ClinVar Pathogenic, rs759242053, MVA1 exact trait) + p.Asn1002Lys (missense, SIFT 0.01/PolyPhen 0.997, novel). Phase cis/trans unresolved (10.9 kb apart, no trio/long-read)."
+PROBAND01,15,40209701,T,G,15,40220612,T,G,0.88,primary,"Same BUB1B compound-het pair, alternate chrom naming (no chr prefix, as in source VCF)."
+PROBAND01,chr15,40209701,T,G,,,,,0.55,primary,"Single-variant fallback: BUB1B p.Leu737Ter (ClinVar Pathogenic/Likely pathogenic, trait Mosaic variegated aneuploidy syndrome 1, OMIM 257300)."
+PROBAND01,15,40209701,T,G,,,,,0.52,primary,"Single-variant fallback, alternate chrom naming."
+PROBAND01,chr15,40220612,T,G,,,,,0.16,primary,"Single-variant fallback: BUB1B p.Asn1002Lys (missense, in silico only, ClinVar VUS for same aa change)."

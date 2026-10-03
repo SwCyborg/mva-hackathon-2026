@@ -1,0 +1,22 @@
+# Datos del probando — NUNCA subir (acceso controlado)
+data/
+*.vcf.gz
+*.vcf.gz.tbi
+*.fastq.gz
+*.bam
+*.bam.bai
+*.bw
+
+# Alineaciones y BAMs
+b_larga/
+cnv_panel/
+
+# Entornos y caché
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Temporales
+*.tmp
+*.log
